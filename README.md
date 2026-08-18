@@ -2,8 +2,6 @@
 
 End-to-end portfolio project using **Python, PostgreSQL, SQL, and Tableau** on the UCI Online Retail II workbook.
 
-Recommended portfolio title:
-
 **Customer Segmentation, Churn Risk, and 90-Day Customer Value Analytics**
 
 The project does not claim full customer lifetime value. The regression target is customer revenue during the next 90 days.
@@ -417,26 +415,3 @@ Follow `dashboard\TABLEAU_PUBLIC_MANUAL_GUIDE.md` for the click-by-click build a
 | Only one chart responds to Country/Year | Filter was applied to only one worksheet | Apply it to the selected Dashboard 1 worksheets |
 | `relation retail.customer_features does not exist` | Modeling started before SQL features | Run `python -m src.03_build_sql_features` first |
 | Tableau shows `EIRE` | Old clean output is being used | Rerun cleaning; the corrected pipeline standardizes it to `Ireland` |
-
-# Reproducibility and claim limits
-
-- Raw workbook is not included in the ZIP and is never modified by the pipeline.
-- No pre-generated Tableau CSV is included; it must be produced by the pipeline.
-- The official pipeline has no CSV fallback for modeling or Tableau export:
-  PostgreSQL is mandatory after cleaning.
-- `.env` and credentials are excluded from Git.
-- December 2011 is incomplete because the source ends on 9 December.
-- Churn is a behavioral proxy, not an official company label.
-- Customers with no purchase in the current 180-day observation window receive a transparent rule-based score marker; they are not silently represented as model-scored.
-- Python syntax, cleaning logic, model logic, SQL/Python column contracts, and
-  package structure were validated in the build environment. PostgreSQL and the
-  final export must be run on the user's Windows installation because this build
-  environment does not provide the user's PostgreSQL server.
-- Do not claim live, real-time, deployed, production-ready, or causal retention impact.
-
-# CV wording after dashboard publication
-
-**Customer Segmentation, Churn Risk & 90-Day Value Analytics — GitHub | Tableau**
-
-- Analyzed 1.06M+ raw retail transactions using Python and PostgreSQL, producing 793K validated records and customer-level RFM features through SQL CTEs and window functions.
-- Developed a leakage-aware temporal churn model with 0.737 test ROC-AUC and 0.750 recall, then visualized customer segments, risk scores, and value metrics in Tableau.
