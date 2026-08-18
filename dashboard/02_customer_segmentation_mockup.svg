@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#F8FAFC"/>
+  <text x="44" y="54" font-family="Arial" font-size="28" font-weight="700" fill="#0F172A">Customer Segmentation &amp; Value</text>
+  <text x="44" y="80" font-family="Arial" font-size="13" fill="#64748B">Compare customer value, behavior, and geographic concentration by RFM segment</text>
+  <rect x="1118" y="32" width="136" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="1137" y="58" font-family="Arial" font-size="12" fill="#334155">All Segments ▾</text>
+  <rect x="1266" y="32" width="130" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="1285" y="58" font-family="Arial" font-size="12" fill="#334155">All Countries ▾</text>
+
+  <g font-family="Arial">
+    <rect x="44" y="110" width="320" height="112" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="68" y="141" font-size="11" font-weight="700" fill="#64748B">CUSTOMERS</text>
+    <text x="68" y="186" font-size="32" font-weight="700" fill="#0F172A">5,878</text>
+    <text x="68" y="208" font-size="11" fill="#64748B">Identified buyers</text>
+    <rect x="388" y="110" width="320" height="112" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="412" y="141" font-size="11" font-weight="700" fill="#64748B">HISTORICAL VALUE</text>
+    <text x="412" y="186" font-size="32" font-weight="700" fill="#0F172A">£17.69M</text>
+    <text x="412" y="208" font-size="11" fill="#64748B">Validated transaction revenue</text>
+    <rect x="732" y="110" width="320" height="112" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="756" y="141" font-size="11" font-weight="700" fill="#64748B">CHAMPIONS</text>
+    <text x="756" y="186" font-size="32" font-weight="700" fill="#0F766E">1,020</text>
+    <text x="756" y="208" font-size="11" fill="#64748B">£10.22M historical value</text>
+    <rect x="1076" y="110" width="320" height="112" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1100" y="141" font-size="11" font-weight="700" fill="#64748B">HIGH-VALUE AT RISK</text>
+    <text x="1100" y="186" font-size="32" font-weight="700" fill="#F59E0B">931</text>
+    <text x="1100" y="208" font-size="11" fill="#64748B">£2.67M historical value</text>
+  </g>
+
+  <rect x="44" y="246" width="560" height="302" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="68" y="279" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Revenue by RFM Segment</text>
+  <text x="68" y="299" font-family="Arial" font-size="11" fill="#64748B">Historical customer value</text>
+  <g font-family="Arial" font-size="11" fill="#334155">
+    <text x="68" y="337">Champions</text><rect x="205" y="320" width="330" height="20" rx="3" fill="#0F766E"/><text x="528" y="335" text-anchor="end" fill="#FFFFFF">£10.22M</text>
+    <text x="68" y="375">Loyal Customers</text><rect x="205" y="358" width="107" height="20" rx="3" fill="#3B82F6"/><text x="320" y="373">£3.32M</text>
+    <text x="68" y="413">High-Value At Risk</text><rect x="205" y="396" width="86" height="20" rx="3" fill="#F59E0B"/><text x="299" y="411">£2.67M</text>
+    <text x="68" y="451">Regular Customers</text><rect x="205" y="434" width="24" height="20" rx="3" fill="#94A3B8"/><text x="237" y="449">£725K</text>
+    <text x="68" y="489">New / Potential</text><rect x="205" y="472" width="13" height="20" rx="3" fill="#8B5CF6"/><text x="226" y="487">£374K</text>
+    <text x="68" y="527">At Risk</text><rect x="205" y="510" width="13" height="20" rx="3" fill="#EF4444"/><text x="226" y="525">£374K</text>
+  </g>
+
+  <rect x="628" y="246" width="768" height="302" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="652" y="279" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Customer Geography</text>
+  <text x="652" y="299" font-family="Arial" font-size="11" fill="#64748B">Circle size = customers · color intensity = historical value</text>
+  <rect x="652" y="315" width="720" height="210" rx="6" fill="#F1F5F9"/>
+  <g fill="#D8E1EA" stroke="#CBD5E1" stroke-width="1">
+    <path d="M690 350 L735 330 L790 337 L822 363 L810 389 L770 398 L748 428 L710 411 L680 377 Z"/>
+    <path d="M780 421 L807 436 L816 469 L801 510 L780 487 L770 449 Z"/>
+    <path d="M870 347 L903 336 L930 345 L940 365 L922 380 L893 373 L879 388 L858 371 Z"/>
+    <path d="M902 384 L937 391 L958 430 L946 485 L919 505 L897 468 L879 425 Z"/>
+    <path d="M936 343 L1000 326 L1080 334 L1155 353 L1199 385 L1172 409 L1116 400 L1081 423 L1025 405 L977 413 L948 382 Z"/>
+    <path d="M1176 458 L1218 448 L1252 468 L1239 495 L1192 503 L1165 482 Z"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="2">
+    <circle cx="889" cy="362" r="24" fill="#0F766E" opacity="0.92"/>
+    <circle cx="876" cy="365" r="10" fill="#14B8A6" opacity="0.90"/>
+    <circle cx="907" cy="365" r="9" fill="#2DD4BF" opacity="0.88"/>
+    <circle cx="916" cy="373" r="8" fill="#5EEAD4" opacity="0.88"/>
+    <circle cx="899" cy="379" r="7" fill="#99F6E4" opacity="0.88"/>
+    <circle cx="1208" cy="476" r="8" fill="#5EEAD4" opacity="0.88"/>
+  </g>
+  <g font-family="Arial" font-size="10" fill="#334155">
+    <text x="864" y="339">United Kingdom</text>
+    <text x="845" y="389">Ireland</text>
+    <text x="934" y="360">Netherlands</text>
+    <text x="930" y="389">Germany</text>
+    <text x="873" y="402">France</text>
+    <text x="1220" y="480">Australia</text>
+  </g>
+
+  <rect x="44" y="572" width="820" height="280" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="68" y="605" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Purchase Frequency vs Customer Value</text>
+  <text x="68" y="625" font-family="Arial" font-size="11" fill="#64748B">Each mark represents one customer · logarithmic axes</text>
+  <line x1="98" y1="815" x2="828" y2="815" stroke="#CBD5E1"/>
+  <line x1="98" y1="815" x2="98" y2="650" stroke="#CBD5E1"/>
+  <g opacity="0.70">
+    <circle cx="150" cy="785" r="5" fill="#EF4444"/><circle cx="180" cy="770" r="6" fill="#94A3B8"/><circle cx="215" cy="758" r="7" fill="#8B5CF6"/><circle cx="250" cy="748" r="6" fill="#94A3B8"/><circle cx="286" cy="728" r="8" fill="#3B82F6"/><circle cx="326" cy="716" r="8" fill="#F59E0B"/><circle cx="366" cy="698" r="10" fill="#3B82F6"/><circle cx="412" cy="687" r="9" fill="#0F766E"/><circle cx="461" cy="674" r="11" fill="#0F766E"/><circle cx="512" cy="690" r="8" fill="#F59E0B"/><circle cx="568" cy="657" r="13" fill="#0F766E"/><circle cx="632" cy="646" r="15" fill="#0F766E"/><circle cx="700" cy="670" r="10" fill="#3B82F6"/><circle cx="777" cy="638" r="17" fill="#0F766E"/>
+  </g>
+  <text x="390" y="840" font-family="Arial" font-size="10" fill="#64748B">Order frequency →</text>
+  <text x="65" y="750" transform="rotate(-90 65 750)" font-family="Arial" font-size="10" fill="#64748B">Historical value →</text>
+
+  <rect x="888" y="572" width="508" height="280" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="912" y="605" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Customer Mix by Segment</text>
+  <text x="912" y="625" font-family="Arial" font-size="11" fill="#64748B">Distinct customer count</text>
+  <g font-family="Arial" font-size="10" fill="#334155">
+    <text x="912" y="663">Regular</text><rect x="1032" y="650" width="300" height="16" rx="3" fill="#94A3B8"/><text x="1340" y="663">1,391</text>
+    <text x="912" y="697">At Risk</text><rect x="1032" y="684" width="255" height="16" rx="3" fill="#EF4444"/><text x="1295" y="697">1,182</text>
+    <text x="912" y="731">Loyal</text><rect x="1032" y="718" width="222" height="16" rx="3" fill="#3B82F6"/><text x="1262" y="731">1,031</text>
+    <text x="912" y="765">Champions</text><rect x="1032" y="752" width="220" height="16" rx="3" fill="#0F766E"/><text x="1260" y="765">1,020</text>
+    <text x="912" y="799">HV At Risk</text><rect x="1032" y="786" width="201" height="16" rx="3" fill="#F59E0B"/><text x="1241" y="799">931</text>
+    <text x="912" y="833">New / Potential</text><rect x="1032" y="820" width="70" height="16" rx="3" fill="#8B5CF6"/><text x="1110" y="833">323</text>
+  </g>
+</svg>

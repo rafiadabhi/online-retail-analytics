@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#F8FAFC"/>
+  <text x="44" y="55" font-family="Arial" font-size="28" font-weight="700" fill="#0F172A">Online Retail Executive Overview</text>
+  <text x="44" y="81" font-family="Arial" font-size="13" fill="#64748B">Track revenue, order volume, customers, and market concentration</text>
+  <rect x="1130" y="34" width="125" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="1150" y="60" font-family="Arial" font-size="12" fill="#334155">All Countries ▾</text>
+  <rect x="1267" y="34" width="129" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="1285" y="60" font-family="Arial" font-size="12" fill="#334155">2009–2011 ▾</text>
+
+  <g font-family="Arial">
+    <rect x="44" y="112" width="320" height="112" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="68" y="143" font-size="12" font-weight="700" fill="#64748B">TOTAL REVENUE</text>
+    <text x="68" y="188" font-size="32" font-weight="700" fill="#0F172A">£17.69M</text>
+    <text x="68" y="210" font-size="11" fill="#0F766E">Valid customer-linked sales</text>
+    <circle cx="331" cy="145" r="18" fill="#CCFBF1"/><path d="M321 151 L330 142 L336 147 L344 136" stroke="#0F766E" stroke-width="3" fill="none"/>
+
+    <rect x="388" y="112" width="320" height="112" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="412" y="143" font-size="12" font-weight="700" fill="#64748B">TOTAL ORDERS</text>
+    <text x="412" y="188" font-size="32" font-weight="700" fill="#0F172A">36,969</text>
+    <text x="412" y="210" font-size="11" fill="#64748B">Across 24 months</text>
+
+    <rect x="732" y="112" width="320" height="112" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="756" y="143" font-size="12" font-weight="700" fill="#64748B">CUSTOMERS</text>
+    <text x="756" y="188" font-size="32" font-weight="700" fill="#0F172A">5,878</text>
+    <text x="756" y="210" font-size="11" fill="#64748B">41 countries</text>
+
+    <rect x="1076" y="112" width="320" height="112" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1100" y="143" font-size="12" font-weight="700" fill="#64748B">AVG ORDER VALUE</text>
+    <text x="1100" y="188" font-size="32" font-weight="700" fill="#0F172A">£478.39</text>
+    <text x="1100" y="210" font-size="11" fill="#64748B">Revenue per invoice</text>
+  </g>
+
+  <rect x="44" y="248" width="862" height="326" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="68" y="281" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Monthly Revenue Trend</text>
+  <text x="68" y="302" font-family="Arial" font-size="11" fill="#64748B">December 2011 is incomplete</text>
+  <line x1="92" y1="515" x2="870" y2="515" stroke="#CBD5E1"/>
+  <line x1="92" y1="330" x2="92" y2="515" stroke="#CBD5E1"/>
+  <g stroke="#E2E8F0"><line x1="92" y1="455" x2="870" y2="455"/><line x1="92" y1="395" x2="870" y2="395"/><line x1="92" y1="335" x2="870" y2="335"/></g>
+  <path d="M100 479 C145 466 164 456 196 467 S254 438 292 449 S350 420 390 434 S454 402 494 412 S552 393 590 401 S650 367 690 378 S744 338 786 351 S828 318 862 330" fill="none" stroke="#0F766E" stroke-width="4"/>
+  <path d="M100 479 C145 466 164 456 196 467 S254 438 292 449 S350 420 390 434 S454 402 494 412 S552 393 590 401 S650 367 690 378 S744 338 786 351 S828 318 862 330 L862 515 L100 515 Z" fill="#CCFBF1" opacity="0.55"/>
+  <g fill="#0F766E"><circle cx="100" cy="479" r="4"/><circle cx="292" cy="449" r="4"/><circle cx="494" cy="412" r="4"/><circle cx="690" cy="378" r="4"/><circle cx="862" cy="330" r="4"/></g>
+  <g font-family="Arial" font-size="10" fill="#64748B"><text x="92" y="538">Dec 09</text><text x="280" y="538">Jun 10</text><text x="475" y="538">Dec 10</text><text x="675" y="538">Jun 11</text><text x="835" y="538">Dec 11</text></g>
+
+  <rect x="930" y="248" width="466" height="326" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="954" y="281" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Top Countries by Revenue</text>
+  <g font-family="Arial" font-size="11" fill="#334155">
+    <text x="954" y="335">United Kingdom</text><rect x="1064" y="320" width="290" height="18" rx="4" fill="#0F766E"/><text x="1358" y="334" text-anchor="end" fill="#FFFFFF">£14.67M</text>
+    <text x="954" y="380">Ireland</text><rect x="1064" y="365" width="122" height="18" rx="4" fill="#3B82F6"/><text x="1194" y="379">£621K</text>
+    <text x="954" y="425">Netherlands</text><rect x="1064" y="410" width="109" height="18" rx="4" fill="#3B82F6"/><text x="1181" y="424">£554K</text>
+    <text x="954" y="470">Germany</text><rect x="1064" y="455" width="84" height="18" rx="4" fill="#3B82F6"/><text x="1156" y="469">£431K</text>
+    <text x="954" y="515">France</text><rect x="1064" y="500" width="70" height="18" rx="4" fill="#3B82F6"/><text x="1142" y="514">£355K</text>
+  </g>
+
+  <rect x="44" y="598" width="666" height="254" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="68" y="631" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Top Products</text>
+  <g font-family="Arial" font-size="11" fill="#334155">
+    <text x="68" y="676">Regency Cakestand 3 Tier</text><rect x="270" y="661" width="355" height="18" rx="4" fill="#0F766E"/><text x="636" y="675" text-anchor="end">£286K</text>
+    <text x="68" y="719">White Hanging Heart Holder</text><rect x="270" y="704" width="312" height="18" rx="4" fill="#14B8A6"/><text x="636" y="718" text-anchor="end">£252K</text>
+    <text x="68" y="762">Jumbo Bag Red Retrospot</text><rect x="270" y="747" width="169" height="18" rx="4" fill="#5EEAD4"/><text x="636" y="761" text-anchor="end">£137K</text>
+    <text x="68" y="805">Assorted Colour Bird Ornament</text><rect x="270" y="790" width="157" height="18" rx="4" fill="#99F6E4"/><text x="636" y="804" text-anchor="end">£127K</text>
+  </g>
+
+  <rect x="734" y="598" width="662" height="254" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="758" y="631" font-family="Arial" font-size="15" font-weight="700" fill="#0F172A">Orders &amp; Average Order Value</text>
+  <g fill="#BFDBFE"><rect x="786" y="756" width="32" height="58"/><rect x="840" y="724" width="32" height="90"/><rect x="894" y="742" width="32" height="72"/><rect x="948" y="690" width="32" height="124"/><rect x="1002" y="712" width="32" height="102"/><rect x="1056" y="672" width="32" height="142"/><rect x="1110" y="695" width="32" height="119"/><rect x="1164" y="650" width="32" height="164"/><rect x="1218" y="678" width="32" height="136"/><rect x="1272" y="632" width="32" height="182"/></g>
+  <path d="M802 730 L856 710 L910 720 L964 684 L1018 701 L1072 676 L1126 682 L1180 656 L1234 665 L1288 642" stroke="#F59E0B" stroke-width="4" fill="none"/>
+  <line x1="775" y1="814" x2="1336" y2="814" stroke="#CBD5E1"/>
+  <rect x="1140" y="610" width="12" height="12" fill="#BFDBFE"/><text x="1158" y="620" font-family="Arial" font-size="10" fill="#64748B">Orders</text>
+  <line x1="1220" y1="616" x2="1236" y2="616" stroke="#F59E0B" stroke-width="3"/><text x="1243" y="620" font-family="Arial" font-size="10" fill="#64748B">AOV</text>
+</svg>
