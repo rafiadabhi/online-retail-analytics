@@ -1,9 +1,10 @@
 # Online Retail Customer Analytics
 
-I built this project to analyze customer behavior in an online retail business and turn the analysis into practical retention priorities. The project combines Python, PostgreSQL, SQL, machine learning, and Tableau in one reproducible workflow.
+I built this project to analyze customer behavior in an online retail business and turn the analysis into practical retention priorities. Leveraging ChatGPT (SOL 5.6) as an AI co-pilot, I accelerated the entire development lifecycle from data exploration and SQL query optimization in PostgreSQL, to feature engineering and hyperparameter tuning for machine learning models, all the way to automating the Tableau dashboard pipeline. The project combines Python, PostgreSQL, SQL, machine learning, and Tableau into one fully reproducible, end-to-end workflow.
 
 **Author:** Rafi Adabhi Sunarya  
 **Project title:** Customer Segmentation, Churn Risk & 90-Day Value Analytics 
+**Tools:** Python, PostgreSQL, SQL, and Tableau
 **Dataset:** UCI Online Retail II
 
 > This project predicts customer behavior from historical transactions. It does not claim to be a production deployment or a full customer-lifetime-value system. The value model estimates customer revenue during the next 90 days.
