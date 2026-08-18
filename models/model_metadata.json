@@ -1,0 +1,24 @@
+{
+  "observation_window_days": 180,
+  "prediction_window_days": 90,
+  "snapshot_dates": [
+    "2010-06-01",
+    "2010-09-01",
+    "2010-12-01",
+    "2011-03-01",
+    "2011-06-01",
+    "2011-09-01"
+  ],
+  "validation_snapshot": "2011-06-01",
+  "test_snapshot": "2011-09-01",
+  "classification_selection_metric": "validation_roc_auc",
+  "selected_churn_model": "Logistic Regression",
+  "selected_k": 2,
+  "silhouette_scores": {
+    "2": 0.435659538573498,
+    "3": 0.34977550146549047,
+    "4": 0.364060490809702,
+    "5": 0.3389691937717992,
+    "6": 0.33141583894580395
+  }
+}
