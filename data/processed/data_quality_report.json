@@ -1,0 +1,16 @@
+{
+  "raw_rows": 1067371,
+  "duplicate_rows_detected": 12133,
+  "missing_customer_rows": 243007,
+  "missing_description_rows": 4382,
+  "cancelled_invoice_rows": 19494,
+  "quantity_le_zero_rows": 22950,
+  "price_le_zero_rows": 6207,
+  "clean_rows": 793609,
+  "clean_customers": 5878,
+  "clean_invoices": 36969,
+  "clean_countries": 41,
+  "clean_date_min": "2009-12-01T07:45:00",
+  "clean_date_max": "2011-12-09T12:50:00",
+  "clean_revenue": 17685460.638
+}
