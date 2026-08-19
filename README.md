@@ -4,6 +4,7 @@ I built this project to analyze customer behavior in an online retail business a
 
 **Author:** Rafi Adabhi Sunarya  
 **Project title:** Customer Segmentation, Churn Risk & 90-Day Value Analytics
+
 **Tools:** Python, PostgreSQL, SQL, and Tableau
 **Dataset:** UCI Online Retail II
 
