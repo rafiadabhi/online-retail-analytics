@@ -222,7 +222,7 @@ PGHOST=localhost
 PGPORT=5432
 PGDATABASE=online_retail_db
 PGUSER=postgres
-PGPASSWORD=YOUR_ACTUAL_POSTGRES_PASSWORD
+PGPASSWORD=PASSWORD
 ```
 
 The pipeline rebuilds only the project schema, `retail`. It does not drop the entire database.
