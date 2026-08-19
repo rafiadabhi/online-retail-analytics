@@ -3,7 +3,7 @@
 I built this project to analyze customer behavior in an online retail business and turn the analysis into practical retention priorities. Leveraging ChatGPT (SOL 5.6) as an AI co-pilot, I accelerated the entire development lifecycle from data exploration and SQL query optimization in PostgreSQL, to feature engineering and hyperparameter tuning for machine learning models, all the way to automating the Tableau dashboard pipeline. The project combines Python, PostgreSQL, SQL, machine learning, and Tableau into one fully reproducible, end-to-end workflow.
 
 **Author:** Rafi Adabhi Sunarya  
-**Project title:** Customer Segmentation, Churn Risk & 90-Day Value Analytics 
+**Project title:** Customer Segmentation, Churn Risk & 90-Day Value Analytics
 **Tools:** Python, PostgreSQL, SQL, and Tableau
 **Dataset:** UCI Online Retail II
 
